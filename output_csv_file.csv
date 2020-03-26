@@ -1,0 +1,13 @@
+Deployment,Service
+emailservice,emailservice
+checkoutservice,checkoutservice
+recommendationservice,recommendationservice
+frontend,frontend
+paymentservice,frontend-external
+productcatalogservice,paymentservice
+cartservice,productcatalogservice
+loadgenerator,cartservice
+currencyservice,currencyservice
+shippingservice,shippingservice
+redis-cart,redis-cart
+adservice,adservice
